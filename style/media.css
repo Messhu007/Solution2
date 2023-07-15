@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1024px){
+    .navbar-expand-sm .navbar-nav .nav-link{
+        font-size: 13px;
+    }
+    .know-more button{
+        padding: 4px 16px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .navbar-expand-sm .navbar-nav .nav-link{
+        font-size: 9px;
+    }
+    .about-heading h3{
+        font-size: 22px;
+    }
+    .about-content p{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .schedual-link a span{
+        padding: 3px 4px;
+    }
+    .schadual-heading h6{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .schadual-heading h6{
+        width: 90% !important;
+    }
+    .service .row{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+    .video-box{
+        margin: 10px 0px;
+    }
+    .text-end{
+        display: none;
+    }
+    .header-heading{
+        position: relative;
+        top: 60px;
+        padding-left: 0px;
+    }
+    header .d-top{
+        display: none;
+    }
+    .navbar-brand{
+        display: block;
+        padding-left: 10px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .event .row{
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width: 425px){
+    .navbar-brand{
+        display: block;
+        padding-left: 10px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .event .row{
+        margin-left: 0px !important;
+    }
+    .schadual-heading h6{
+        width: 100% !important;
+    }
+}
